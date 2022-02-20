@@ -1,0 +1,240 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+  height: 100%;
+  overflow-x: hidden;
+
+}
+body
+{
+    min-height: 100%;
+}
+
+.wrap
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+.header
+{
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5; 
+    
+}
+.header h2
+{
+    color: red;
+    line-height: 60px;
+    margin-left: 146px;
+    float: left;
+font-family:cursive;
+}
+.header ul
+{
+    float: right;
+    margin-right: 101px;
+}
+.header ul li
+{
+    list-style-type: none;
+    display:inline-block;
+    line-height: 60px;
+    width: 100px;
+
+    
+}
+.header ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.header ul li a:hover
+{
+    color: crimson;
+    border-bottom: 2px solid crimson;
+    border-top:2px solid crimson;
+    padding: 8px;
+}
+/* --Banner start-- */
+.banner
+{
+    background-image: url(../img/computerbg.jpg);
+    height: 600px;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+.banner .msg 
+{
+    width: 500px;
+    position: absolute;
+    top: 25%;
+     left: 15%; 
+}
+.msg  h1 
+{
+    font-size: 40px;
+    font-family: cursive;
+    color: crimson;
+}
+.msg p
+{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.about
+{
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+.about h1
+{
+    left: 40%;
+    top: 3%;
+    font-size: 35px;
+    position: relative;
+    font-family: cursive;
+    color: crimson;
+}
+.about p
+{
+    width: 950px;
+    left: 13%;
+    top: 10%;
+    position: relative;
+}
+.traning
+{
+    height: 500px;
+    width: 99.4%;
+    position: relative;
+    min-height: 100%;
+    background-color: white;
+    padding-left: 8px;
+}
+.traning h1
+{
+    color: crimson;
+    font-size: 35px;
+    font-family: cursive;
+    position: relative;
+    top: 1%;
+    left: 43%;
+}
+.traning ul
+{
+ list-style-type: none;
+ position: relative;
+ top: 38px;
+ left: 11%;
+}
+.traning ul li
+{
+    margin: 11px;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    border: 2px solid red;
+    display: inline-block;
+    background-color: lightgray;
+}
+.traning ul li h3
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.contact
+{
+
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: 36%;
+    right: 1%;
+    width: 1266px;
+
+    
+}
+
+.contact form
+{
+    height: 200px;
+    width: 90px;
+    margin-left: 229px;
+    margin-top: 43px;
+    float: left;
+}
+.length, textarea
+{
+    height: 40px;
+    width: 315px;
+    background-color: transparent;
+    border: 0px;
+    margin:10px ;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.btn
+{
+    height: 40px;
+    width: 315px;
+    background-color: crimson;
+    margin-top: 10px;
+    color: white;
+    margin-left: 9px;
+}
+textarea
+{
+    height: 90px;
+    resize: none;
+    
+}
+iframe
+{
+    float:left;
+    margin-top: 78px;
+    margin-left: 316px;
+}
+.footer
+{
+    height: 50px;
+    width: 1271px;
+    background-color: crimson;
+    position:relative;
+    top: 90%;   
+    left: -5px;
+ 
+}
+.footer h4
+{
+ position: relative;   
+ right: 61%;   
+ top: 14px;
+ color: white;
+}
+.footer img
+{
+    background-color: white;
+    margin: 3px;
+    line-height: 50px;
+}
+@media(min-width:600px)
+{
+
+}
